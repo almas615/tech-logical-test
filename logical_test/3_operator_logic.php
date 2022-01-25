@@ -6,12 +6,10 @@ function pembagian($pembilang, $penyebut)
     $totalBagi = 0;
     while ($hasil >= $penyebut) {
         $hasil = $hasil - $penyebut;
-        echo $hasil;
+
         $totalBagi++;
-        echo $totalBagi;
-        echo "=====================\n";
     }
-    echo $totalBagi;
+    echo $pembilang . ":" . $penyebut . "=" . $totalBagi;
 }
 
 pembagian(7, 3);
